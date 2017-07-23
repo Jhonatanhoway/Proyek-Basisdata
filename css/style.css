@@ -1,0 +1,130 @@
+/* CSS web */
+body {
+	margin: 0;
+	padding: 0;
+}
+#wrap{
+	max-width:1000px;
+	margin: auto;
+	background-color:#ca7a33;
+}
+#header{
+	position: relative;
+	top:27px;
+	max-width:1000px;
+	height:200px;
+	background-color:#b1561f;
+	display: block;
+}
+#title{
+	font-family:Kristen ITC;
+	font-size:16px;
+	padding-left:2px;
+}
+#gambar{
+	position: absolute;
+	width:400px;
+	height:170px;
+	top:10px;
+	right:10px;
+	background-color:#b1561f;
+}
+#kiri{
+	width:200px;
+	margin-top:30px;
+	min-height:510px;
+	position: relative;
+	display: block;
+	float: left;
+}
+#menu{
+	position: absolute;
+	width:200px;
+	height:310px;
+	display: block;
+	border: 1px solid black;
+	font-family:'Arial';
+	font-size:12px;
+	text-decoration:none;
+}
+#menu ul {
+	padding:0;
+	margin:.4em;
+	list-style: none;
+	text-align: left;
+}
+#menu li{
+	list-style-type:none;
+	text-align: left;
+	margin: 0;
+}
+#menu li a{
+	text-decoration: none;
+	width: 175px;
+	background-color:#6b2d12;
+	border-top:1px solid black;
+	padding: .2em .8em;
+	display: block;
+	color:white;
+}
+#menu ul{
+	padding:0px;
+	margin-top:8px;
+}
+#menu ul ul{
+	visibility: hidden;
+	width: 140px;
+	padding:0;
+	margin:0;
+}
+#menu a{
+	color:#000;
+	text-decoration:none;
+	display: block;
+	width: 18em;
+	padding: .1em .2em;
+}
+#menu a:hover{
+	color:#fff;
+	background-color:#dc8923;
+}
+#menu ul li:hover ul,
+#menu ul a:hover ul{
+	visibility: visible;
+}
+#banner{
+	position: absolute;
+	top:430px;
+	width:200px;
+	min-height:200px;
+	display: block;
+	margin-bottom:200px;
+}
+#content{
+	text-align: center;
+	color:#ffd2d2;
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 44px;
+	font-style: normal;
+	margin-top:167px;
+}
+.edit{
+	font-size:20px;
+	color:#0d0000;
+	
+}
+#footer{
+	clear: both;
+	max-width:1000px;
+	color:#ffffff;
+	font-size:20px;
+	font-family: monotype corsiva;
+	text-align:center;
+	background-color:#303738;
+	height:80px;
+	padding:2px;
+	opacity:0.4;
+	filter:alpha(opacity=40);
+
+}

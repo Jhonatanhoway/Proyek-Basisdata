@@ -1,0 +1,68 @@
+body {
+	font-family:Verdana,Arial,sans-serif;
+	font-size:12px;
+	background:url(../images/page_bg.jpg);
+}
+h2,h3{clear:both; text-align:center; font-size:16px;}
+.box {
+	width:1200px;
+	margin: 0px auto;
+	height:auto;
+	padding:10px;
+	-moz-border-radius: 5px 5px 5px 5px; 
+	-webkit-border-radius: 5px 5px 5px 5px; 
+	border-radius: 5px 5px 5px 5px; 
+	-moz-box-shadow:0px 0px 20px #aaa;
+    -webkit-box-shadow:0px 0px 20px #aaa;
+    box-shadow:0px 0px 20spx #aaa;
+	background-color:#FFF;
+}
+.style	{ 
+	border: 3px solid #FFFFFF;
+}
+.header	{ 
+	height: 150px; 
+}
+.menu	{ 
+	height: 60px;
+	background:#BDD2FF;
+	font-size:20px;
+	-moz-border-radius: 5px 5px 5px 5px; 
+	-webkit-border-radius: 5px 5px 5px 5px; 
+	border-radius: 5px 5px 5px 5px; 
+	-moz-box-shadow:0px 0px 20px #aaa;
+    -webkit-box-shadow:0px 0px 20px #aaa;
+    box-shadow:0px 0px 20spx #aaa;
+}
+.content {
+	margin:0px auto;
+	margin-top:10px;
+	padding:5px 5px 5px 5px;
+	height:auto;
+}
+.footer {
+	margin-top:10px;
+	padding:5px 5px 5px 5px;
+	background:#fff;
+	color:#000;
+	-moz-border-radius: 5px 5px 5px 5px; 
+	-webkit-border-radius: 5px 5px 5px 5px; 
+	border-radius: 5px 5px 5px 5px; 
+	-moz-box-shadow:0px 0px 20px #aaa;
+    -webkit-box-shadow:0px 0px 20px #aaa;
+    box-shadow:0px 0px 20spx #aaa;
+}
+.style-tombol {
+ background-color:#ed8223;
+ color:#fff;
+ font-family:'Helvetica Neue',sans-serif;
+ font-size:18px;
+ line-height:30px;
+ border-radius:20px;
+ -webkit-border-radius:20px;
+ -moz-border-radius:20px;
+ border:0;
+ text-shadow:#C17C3A 0 -1px 0;
+ width:120px;
+ height:32px
+}

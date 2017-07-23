@@ -1,0 +1,195 @@
+body{
+	margin:0;
+	padding:0;
+}
+.button
+{      
+display: inline-block;
+white-space: nowrap;
+background-color: #a27042;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#a27042), to(#804f1e));
+background-image: -webkit-linear-gradient(top, #a27042, #804f1e);
+background-image: -moz-linear-gradient(top, #a27042, #804f1e);
+background-image: -ms-linear-gradient(top, #a27042, #804f1e);
+background-image: -o-linear-gradient(top, #a27042, #804f1e);
+background-image: linear-gradient(top, #a27042, #804f1e);
+border: 1px solid #141427;
+padding: 0 1.5em;
+margin: 0.5em;
+font: bold 1em/2em Arial, Helvetica;
+text-decoration: none;
+color: #220702;
+text-shadow: 0 1px 0 rgba(255,255,255,.8);
+-moz-border-radius: .2em;
+-webkit-border-radius: .2em;
+border-radius: .2em;
+-moz-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+-webkit-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+}
+ 
+.button:hover
+{
+background-color: #472614;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#472614), to(#cb6d30));
+background-image: -webkit-linear-gradient(top, #472614, #cb6d30);
+background-image: -moz-linear-gradient(top, #472614, #cb6d30);
+background-image: -ms-linear-gradient(top, #472614, #cb6d30);
+background-image: -o-linear-gradient(top, #472614, #cb6d30);
+background-image: linear-gradient(top, #472614, #cb6d30);
+}
+ 
+.button:active
+{
+-moz-box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+-webkit-box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+position: relative;
+top: 1px;
+}
+ 
+.button:focus
+{
+outline: 0;
+background:#cb4d1d;
+}  
+ 
+.button:before
+{
+background:#80481c;
+background: rgba(0,0,0,.1);
+float: left;      
+width: 1em;
+text-align: center;
+font-size: 1.5em;
+margin: 0 1em 0 -1em;
+padding: 0 .2em;
+-moz-box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
+-webkit-box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
+box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
+-moz-border-radius: .15em 0 0 .15em;
+-webkit-border-radius: .15em 0 0 .15em;
+border-radius: .15em 0 0 .15em;  
+pointer-events: none;
+}
+#tbl
+{      
+display: inline-block;
+white-space: nowrap;
+background-color:#c77838;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#c77838), to(#864a26));
+background-image: -webkit-linear-gradient(top, #c77838, #864a26);
+background-image: -moz-linear-gradient(top, #c77838, #864a26);
+background-image: -ms-linear-gradient(top, #c77838, #864a26);
+background-image: -o-linear-gradient(top, #c77838, #864a26);
+background-image: linear-gradient(top, #c77838, #864a26);
+border: 1px solid #141427;
+padding: 0 1.5em;
+margin: 0.5em;
+font: bold 1em/2em Arial, Helvetica;
+text-decoration: none;
+color:#220000;
+text-shadow: 0 1px 0 rgba(255,255,255,.8);
+-moz-border-radius: .2em;
+-webkit-border-radius: .2em;
+border-radius: .2em;
+-moz-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+-webkit-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+}
+ 
+#tbl:hover
+{
+background-color:#833c18;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#a86726), to(#833c18));
+background-image: -webkit-linear-gradient(top, #a86726, #833c18);
+background-image: -moz-linear-gradient(top, #a86726, #833c18);
+background-image: -ms-linear-gradient(top, #a86726, #833c18);
+background-image: -o-linear-gradient(top, #a86726, #833c18);
+background-image: linear-gradient(top, #a86726, #833c18);
+}
+ 
+#tbl:active
+{
+-moz-box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+-webkit-box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+/*position: relative;*/
+top: 1px;
+}
+ 
+#tbl:focus
+{
+outline: 0;
+background-color:#b77926;
+}  
+ 
+#tbl:before
+{
+background-color:#ba631b;
+background: rgba(0,0,0,.1);
+/*float: left;      */
+width: 1em;
+text-align: center;
+font-size: 1.5em;
+margin: 0 1em 0 -1em;
+padding: 0 .2em;
+-moz-box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
+-webkit-box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
+box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
+-moz-border-radius: .15em 0 0 .15em;
+-webkit-border-radius: .15em 0 0 .15em;
+border-radius: .15em 0 0 .15em;  
+pointer-events: none;
+}
+#form{
+	text-align: left;
+	font-style: normal;
+	margin-top:100px;
+	padding-left:330px;
+}
+h2{
+	text-align: center;
+	font-family:Tahoma;
+	font-size:20px;
+	color:#130000;
+	padding-right:120px;
+}
+#form1{
+	text-align: left;
+	font-style: normal;
+	margin-top:100px;
+	padding-left:200px;
+}
+#form2{
+	text-align: left;
+	font-style: normal;
+	margin-top:100px;
+	padding-left:300px;
+}
+#form3{
+	text-align: left;
+	font-style: normal;
+	margin-top:100px;
+	padding-left:450px;
+}
+h3{
+	text-align: center;
+	font-family:Tahoma;
+	font-size:20px;
+	color:#130000;
+	padding-right:220px;
+}
+#form4{
+	text-align: left;
+	font-style: normal;
+	margin-top:100px;
+	padding-left:380px;
+}
+h1{
+	text-align: center;
+	font-family:Tahoma;
+	font-size:20px;
+	color:#130000;
+	padding-right:190px;
+}
